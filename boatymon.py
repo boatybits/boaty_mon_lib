@@ -49,5 +49,4 @@ class sensors:
         self.led.value(not self.led.value())
         
     def slow_loop(self):  #which sensors to send, triggered by usynchio
-
         self.flashLed()
